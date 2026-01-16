@@ -5,6 +5,13 @@ import path from "path"
 import Link from "next/link"
 import HomeActions from "@/components/HomeActions"
 
+const uploadsPath = path.join(process.cwd(), "public/uploads")
+
+if (!fs.existsSync(uploadsPath)) {
+  fs.mkdirSync(uploadsPath, { recursive: true })
+}
+
+
 export default function Home() {
   const uploadsPath = path.join(process.cwd(), "public/uploads")
   const folders = fs
