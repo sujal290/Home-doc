@@ -1,4 +1,5 @@
 
+export const runtime = "nodejs"
 
 import { writeFile, mkdir } from "fs/promises"
 import fs from "fs"

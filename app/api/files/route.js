@@ -1,3 +1,5 @@
+export const runtime = "nodejs"
+
 import path from "path"
 import fs from "fs"
 import { FAMILY_FOLDERS } from "@/lib/folders"

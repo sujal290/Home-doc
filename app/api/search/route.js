@@ -1,3 +1,5 @@
+export const runtime = "nodejs"
+
 import path from "path"
 import { searchFiles } from "@/lib/search"
 
