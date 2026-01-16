@@ -39,3 +39,21 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Next.js
+.next
+node_modules
+
+# Env files
+.env
+.env.local
+.env.production
+
+# User uploaded files (CRITICAL)
+public/uploads
+uploads
+
+# OS junk
+.DS_Store
+
